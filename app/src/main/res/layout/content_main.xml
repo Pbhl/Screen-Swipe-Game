@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity">
+    <include layout="@layout/activity_main"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="SCREEN SWIPE"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:textSize="50dp"
+        android:background="#0288D1"
+        android:gravity="center"
+        android:textColor="#EEEEEE"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#727272"
+        android:text="Start Game"
+        android:background="#B3E5FC"
+        android:id="@+id/btnStrt"
+        android:onClick="btnStartOnClick"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="Developed by Parth 513/IC/12 NSIT"
+        android:id="@+id/textView2"
+        android:background="#CDDC39"
+        android:gravity="center"
+        android:textColor="#727272"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Get Instructions"
+        android:background="#B3E5FC"
+        android:textColor="#727272"
+        android:id="@+id/btnInstr"
+        android:onClick="btnInstrOnClick"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="140dp" />
+</RelativeLayout>

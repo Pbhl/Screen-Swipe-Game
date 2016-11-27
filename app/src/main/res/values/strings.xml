@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Screen Swipe</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="how_to_play">How To Play</string>
+    <string name="how_to_play_intro">
+        Hi there! The instructions regarding how this game is to be played are given below. This was made for my programming lab(IC 410).
+    </string>
+
+    <string name="how_to_play_cols_title">Instructions:</string>
+    <string name="how_to_play_cols">
+        Arrows pointing in different directions will appear on the screen. Swipe in the same directions as the arrows. The arrows will resemble the shapes shown below:
+    </string>
+
+    <string name="how_to_play_example_explanation">
+        Every swipe in the correct direction will give you one point and swiping in the wrong direction will end the game. The game starts with the first swipe you make
+    </string>
+
+    <string name="left">←</string>
+    <string name="right">→</string>
+    <string name="up">↑</string>
+    <string name="down">↓</string>
+
+
+    <string name="title_activity_game_result">Game Result Screen</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="your_score">Your score is:</string>
+    <string name="new_game">Click on the button bellow to play again!</string>
+    <string name="play_again">Play Again!</string>
+
+</resources>

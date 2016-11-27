@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <item name="default_light_text_color" type="color">#FFFFFF</item>
+    <item name="base_color" type="color">#0288D1</item>
+    <item name="highlight_color" type="color">#CDDC39</item>
+    <item name="ripple_color" type="color">#666</item>
+    <item name="bit_sum_color" type="color">#757575</item>
+    <item name="bit_sum_toggled_color" type="color">#8BC34A</item>
+</resources>
